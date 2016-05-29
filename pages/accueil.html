@@ -1,0 +1,61 @@
+<header>
+	<div class="menu">
+		<div class="logo" ng-click="go('home');"></div>
+		<div class="menuItem" ng-click="go('comment');">Comment ça marche?</div>
+		<div class="menuItem">S'inscrire</div>
+		<div ng-show="connect == false;" class="menuItem" ng-click="connect = true;">Se connecter</div>
+		<form  ng-show="connect==true;" action="" class="menuItem loginForm">
+			<input class="loginFormElement" type="mail" placeholder="E-mail" >
+			<input class="loginFormElement" type="password" placeholder="Votre mot de passe">
+			<button class="submitButton">Connexion</button>
+		</form>
+	</div>
+</header>
+<hr>
+
+<div class="pageContent">
+	<div id="slogan">
+		Pour faire de l'engagement d'une valeur.
+	</div>
+	<div id="partenaires">
+		<div class="partenaire"  id="partner{{$index}}" ng-repeat="partner in partenaires track by $index" ng-style="{'background-image' : 'url({{partner.bg}})'}"> 
+		</div>
+	</div>
+</div>
+
+
+<div class="etapes">
+	<div class="etape" id="etape1">
+		<div class="numEtape">
+			1ère étape
+		</div>
+		<div class="nomEtape">
+			la valorisation
+		</div>
+		<div class="descEtape">
+			Décrivez votre expérience et mettez en avant ce que vous avez retiré.
+		</div>
+	</div>
+	<div class="etape" id="etape2">
+		<div class="numEtape">
+			2ème étape
+		</div>
+		<div class="nomEtape">
+			la confirmation
+		</div>
+		<div class="descEtape">
+			Confirmez cette expérience et ce que vous avez pu constater au contact de ce jeunes
+		</div>
+	</div>
+	<div class="etape" id="etape3">
+		<div class="numEtape">
+			3ème étape
+		</div>
+		<div class="nomEtape">
+			la consultation
+		</div>
+		<div class="descEtape">
+			Validez cet engagement en prenant en compte sa valeur.
+		</div>
+	</div>
+</div>

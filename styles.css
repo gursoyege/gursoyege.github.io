@@ -1,0 +1,132 @@
+@font-face {
+    font-family: DINBold;
+    src: url('fonts/DINBold.ttf');
+}
+
+@font-face {
+    font-family: DINMed;
+    src: url('fonts/DINMedium.ttf');
+}
+
+@font-face {
+    font-family: DINBlack;
+    src: url('fonts/DINBlackAlternate.ttf');
+}
+
+@font-face {
+    font-family: DINLight;
+    src: url('fonts/DINLightAlternate.ttf');
+}
+
+body {
+	padding : 0;
+	margin: 0;
+}
+
+.container {
+	margin-top: 2%;
+	width: 80%;
+	margin-left: 10%;
+}	
+
+.menuItem {
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+	font-family: DINMed;
+	cursor: pointer;
+	vertical-align: top;
+	margin-top: 12.5vh;
+}
+
+.menuItem:hover {
+	opacity: 0.5;
+}
+
+.logo {
+	background: url('/images/logo/logo64Global.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	width: 25%;
+	height: 25vh;
+	display: inline-block;
+}
+
+.logo:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.menu {
+	display: inline-block;
+	width: 85%;
+	padding-left: 3%;
+}
+
+.loginForm {
+	width: 38%;
+}
+
+
+.loginFormElement {
+	border: 0;
+	border-bottom: 1px solid #000000;
+	background: transparent;
+	font-family: DINMed;
+	padding: 0.5%;
+}
+
+.submitButton {
+	border: 1px solid #000000;
+	background: transparent;
+	font-family: DINMed;
+	padding: 0.5%;
+}
+
+.pageContent {
+	padding-top: 4%;
+
+}
+
+#slogan {
+	font-family: DINLight;
+	font-size: 200%;
+	width: 20%;
+	margin-left: 10%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 7.5%;
+}
+
+#partenaires {
+	display: inline-block;
+	width: 50%;
+	margin-left: 12.5%;
+}
+
+.partenaire {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	width: 22.5%;
+	height: 20vh;
+	display: inline-block;
+	margin: 1%;
+}
+
+.question {
+	width: 45%;
+}
+
+.qTitle {
+	font-family: DINMed;
+	margin-bottom: 1%;
+}
+
+.qContent {
+	font-family: DINLight;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 90%;
+}

@@ -1,0 +1,27 @@
+<header>
+	<div class="menu">
+		<div class="logo" ng-click="go('home');"></div>
+		<div class="menuItem" ng-click="go('comment');">Comment ça marche?</div>
+		<div class="menuItem">S'inscrire</div>
+		<div ng-show="connect == false;" class="menuItem" ng-click="connect = true;">Se connecter</div>
+		<form  ng-show="connect==true;" action="" class="menuItem loginForm">
+			<input class="loginFormElement" type="mail" placeholder="E-mail" >
+			<input class="loginFormElement" type="password" placeholder="Votre mot de passe">
+			<button class="submitButton">Connexion</button>
+		</form>
+	</div>
+</header>
+<hr>
+
+<div class="pageContent">
+	<div id="questions">
+		<div class="question" ng-repeat="question in titles">
+			<div class="qTitle">
+				{{question.title}}
+			</div>
+			<div class="qContent" ng-repeat="content in question.contenu">
+				{{content}}
+			</div>
+		</div>
+	</div>
+</div>

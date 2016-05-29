@@ -1,0 +1,64 @@
+
+	<header>Pour faire de l'engagement d'une valeur
+		<div class="menu">
+		<div class="menuItem" ng-repeat = 'mi in menuItems track by $index' ng-style="{{mi.style}}" id="item{{$index}}" ng-mouseover="colorBG($index,1)" ng-mouseleave="colorBG($index,0)">
+			<div class="menuLetter" ng-style="{'background-image':'url({{mi.link}})'}">
+				
+			</div>
+			<a  class="menuLink" href="{{mi.href}}">{{mi.content}}</a>
+		</div>		
+	</div>
+	</header>
+	<div class="containerPage">
+		<div class="partie" ng-repeat="t in titles track by $index">
+			<div class="title" ng-click="openClose($index)">
+			<div class="tiretG">></div> 
+			<div class="textMiddleTiret">{{t.title}} </div><!-- <div class="tiretD"><</div>--></div>
+			<div ng-show='t.selected==true' class="partContent" ng-repeat = 'c in t.contenu track by $index'>
+			 {{c}}
+			</div>
+			
+		</div>
+			<div class="title">
+			<div class="tiretG">></div>
+			<div class="textMiddleTiret">
+				Quelles sont les étapes?
+			</div>
+			</div>
+	
+		<div class="etapes">
+			<div class="etape" id="etape1">
+				<div class="numEtape">
+					1ère étape
+				</div>
+				<div class="nomEtape">
+					la valorisation
+				</div>
+				<div class="descEtape">
+					Décrivez votre expérience et mettez en avant ce que vous avez retiré.
+				</div>
+			</div>
+			<div class="etape" id="etape2">
+				<div class="numEtape">
+					2ème étape
+				</div>
+				<div class="nomEtape">
+					la confirmation
+				</div>
+				<div class="descEtape">
+					Confirmez cette expérience et ce que vous avez pu constater au contact de ce jeunes
+				</div>
+			</div>
+			<div class="etape" id="etape3">
+				<div class="numEtape">
+					3ème étape
+				</div>
+				<div class="nomEtape">
+					la consultation
+				</div>
+				<div class="descEtape">
+					Validez cet engagement en prenant en compte sa valeur.
+				</div>
+			</div>
+		</div>
+	</div>
