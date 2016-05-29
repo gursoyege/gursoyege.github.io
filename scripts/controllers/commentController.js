@@ -1,5 +1,5 @@
 app.controller('CommentController', ['$scope','$location', function($scope,$location){
-		
+	$scope.connect = false;
 	$scope.titles = [
 		{ 
 		  title : 'De quoi s\'agit il?',
