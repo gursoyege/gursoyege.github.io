@@ -102,7 +102,7 @@ body {
 #partenaires {
 	display: inline-block;
 	width: 50%;
-	margin-left: 12.5%;
+	margin-left: 17.5%;
 }
 
 .partenaire {
@@ -112,7 +112,7 @@ body {
 	width: 22.5%;
 	height: 20vh;
 	display: inline-block;
-	margin: 10%;
+	margin: 2.5%;
 }
 
 #questions {
