@@ -101,7 +101,7 @@ body {
 
 #partenaires {
 	display: inline-block;
-	width: 60%;
+	width: 50%;
 	margin-left: 12.5%;
 }
 
@@ -109,10 +109,10 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
-	width: 1%;
+	width: 22.5%;
 	height: 20vh;
 	display: inline-block;
-	margin: 2.5%;
+	margin: 1%;
 }
 
 #questions {
