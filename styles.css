@@ -109,10 +109,10 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
-	width: 22.5%;
+	width: 17.5%;
 	height: 20vh;
 	display: inline-block;
-	margin: 1%;
+	margin: 5%;
 }
 
 #questions {
