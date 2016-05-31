@@ -118,7 +118,8 @@ body {
 
 #questions {
 	width: 45%;
-	margin-left: 7.5%;
+	margin-left: 3.75%;
+	padding-top: 8.5%;
 }
 
 .qTitle {
