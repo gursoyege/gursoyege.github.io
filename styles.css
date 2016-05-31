@@ -91,12 +91,12 @@ body {
 
 #slogan {
 	font-family: DINLight;
-	font-size: 300%;
+	font-size: 200%;
 	width: 20%;
 	margin-left: 10%;
 	display: inline-block;
 	vertical-align: top;
-	padding-top: 10%;
+	padding-top: 7.5%;
 }
 
 #partenaires {
