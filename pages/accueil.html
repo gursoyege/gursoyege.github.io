@@ -1,5 +1,6 @@
+
 <header>
-	<div class="menu">
+	<div class="menu" ng-show="entered==true">
 		<div class="logo" ng-click="go('home');"></div>
 		<div class="menuItem" ng-click="go('comment');">Comment ça marche?</div>
 		<div class="menuItem" ng-click="go('inscription')">S'inscrire</div>
@@ -11,13 +12,14 @@
 		</form>
 	</div>
 </header>
-<hr>
-
+<hr ng-show="entered==true">
 <div class="pageContent">
-	<div id="slogan">
+	<div class="logo centeredLogo" ng-hide='entered==true'></div>
+	<button  class="enterButton" ng-click="entered=true;" ng-hide="entered==true">ENTRER</button>
+	<div ng-show="entered==true" id="slogan">
 		Pour faire de l'engagement d'une valeur.
 	</div>
-	<div id="partenaires">
+	<div ng-show="entered==true" id="partenaires">
 		<div class="partenaire"  id="partner{{$index}}" ng-repeat="partner in partenaires track by $index" ng-style="{'background-image' : 'url({{partner.bg}})'}"> 
 		</div>
 	</div>

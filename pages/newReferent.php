@@ -7,7 +7,7 @@
 	if ($conn->query($sql) === TRUE) {
 		echo json_encode(array('unique_id' => $randomstr));
 	} else {
-		echo json_encode(array('error' => ''. $sql . $conn->error)); 
+		echo json_encode(array('error' => ''. $sql . $conn->error));
 	}
 
 

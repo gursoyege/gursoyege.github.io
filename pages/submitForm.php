@@ -17,6 +17,6 @@
 
 
 	$conn->close();
-	header('Location: http://eisti.kaanyagci.com/#/'); 
+	header('Location: http://gursoyege.github.io/#/'); 
 
 ?>

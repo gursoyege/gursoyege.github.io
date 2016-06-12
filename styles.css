@@ -244,6 +244,26 @@ body {
 	color: #D41882;
 }
 
+#inscription2 {
+	display: block;
+	width: 100%;
+	margin-top: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	font-family: DINMed;
+	font-size: 125%;
+	border: 1px solid #FFFFFF;
+	background: #A2C72C;
+	color: #FFFFFF;
+}
+
+#inscription2:hover {
+	border: 1px solid #A2C72C;
+	background: #FFFFFF;
+	color: #A2C72C;
+}
+
+
 #bonjour,#profile,#referent {
 	font-family: DINMed;
 	font-size: 150%;
@@ -278,6 +298,64 @@ body {
 	margin-left: 3%;
 }
 
+.userReferent {
+	display: block;
+	border-bottom: 1px solid black
+}
+
+.refPrenom, .refNom, .refdate, .refReseau, .refReseau1, .refReseau2, .refMail, .refPresentation, .refDuree, .refCommentaire, .refSe {
+	display: inline-block;
+	padding: 0.5%;
+	width: 7.4%;
+	text-align: center;
+}
+
+.profilTitle {
+	font-family: DINMed;
+}
+
+.referentList {
+	width: 150%;
+}
+
+.titles {
+	margin-top: 1%;
+	font-family: DINMed;
+	border-bottom: 1px solid black;
+}
+.ttle {
+	display: inline-block;
+	width: 24%;
+}
+
+.refCell {
+	display: inline-block;
+	width: 24%;
+}
+
+.referent {
+	display: block;
+	border-bottom: 1px solid black;
+}
+
+#etatTtle {
+	float: right;
+}
 
 
+.enterButton {
+	background: #2091D2;
+	color: #FFFFFF;
+	font-family: DINMed;
+	width: 40%;
+	font-size: 200%;
+	padding: 1%;
+	margin-left: 25%;
+	margin-top: 5%;
+}
 
+.centeredLogo {
+	width: 40%;
+	margin-left: 25%;
+	margin-top: 5%;
+}

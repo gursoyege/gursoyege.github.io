@@ -4,9 +4,9 @@
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
-	    // output data of each row
+	    // les données de sortie de chaque rangée
 	    while($row = $result->fetch_assoc()) {
-	    	echo json_encode(array('prenom' => $row['firstname'], 
+	    	echo json_encode(array('prenom' => $row['firstname'],
 	    					   'nom' => $row['lastname'],
 	    					   'password' => $row['password'],
 	    					   'datedenaissance' => $row['birthdate'],

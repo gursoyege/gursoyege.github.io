@@ -37,7 +37,7 @@ app.config(['$routeProvider',
         templateUrl: 'pages/profilReferents.html',
         controller: 'ProfilReferentsController'
       }).
-      when('/referent/:email', {
+      when('/referent/:id', {
         templateUrl: '/pages/newReferent.html',
         controller: 'NewReferentController'
       }).

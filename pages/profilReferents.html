@@ -12,10 +12,21 @@
 		<button id="newRef" ng-click="nouveauRef()">Nouveau référent</button>
 	</div>
 	<div id="referentList">
+		<div class="titles">
+			<div class="ttle">E-mail</div>
+			<div class="ttle">Lien</div>
+			<div class="ttle" id="etatTtle">Etat</div>
+		</div>
 		<div class="referent" ng-repeat="ref in userReferents">
+		<div class="refCell">
 			{{ref.email}}
-			{{ref.lien}}
+		</div>
+		<div class="refCell">
+			http://gursoyege.github.io/#/referent/{{ref.unique_id}}
+		</div>
+		<div class="refCell" id="etatTtle">
 			{{ref.etat}}
+		</div>
 		</div>
 	</div>
 </div>

@@ -1,8 +1,11 @@
 app.controller('ProfilReferentsController', ['$scope','$routeParams','$rootScope','$location', function($scope,$routeParams,$rootScope,$location){
+
 	if (($rootScope.user == undefined) || ($rootScope.userReferents == undefined))
 	{
 		$location.path('/profil/'+$routeParams.id);
 	}
+
+	$scope.unique_id = $routeParams.id;
 
 	$scope.nouveauRef = function () {
 		if (($scope.referentMail != '') && ($scope.referentMail != undefined))
@@ -23,7 +26,6 @@ app.controller('ProfilReferentsController', ['$scope','$routeParams','$rootScope
 			alert('Veuillez écrire un adresse mail de référent!');
 		}
 	}
-
 	$scope.go = function (cle)
 		{
 			if (cle == 'editProfil')

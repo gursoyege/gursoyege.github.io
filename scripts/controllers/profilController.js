@@ -6,7 +6,12 @@ app.controller('ProfilController', ['$scope','$location','$routeParams','$http',
   	});
 
 	$.post( "/pages/getUserReferents.php", { "parameter": $routeParams.id }, function( data ) {
-  		$rootScope.userReferents = JSON.parse(data);
+  		var list = JSON.parse(data);
+  		$rootScope.userReferents = [];
+  		for (var i=0;i<list.length;i++)
+  		{
+  			$rootScope.userReferents.push(JSON.parse(list[i]));
+  		}
   	});
 
 	alert("Ne partagez ce lien avec personne");

@@ -22,7 +22,7 @@
 			<label for="datenaissance" class="signUpFormElement">Date de naissance</label>
 			<input type="date" name="datenaissance" id="datenaissance" class="signUpFormElement signUpFormInput" required="true" ng-model='user.datedenaissance' ng-disabled="dd">
 			<label for="reseausocial" class="signUpFormElement">Réseaux sociaux</label>
-			<input type="url" name='reseausocial' id='reseausocial' class="signUpFormElement signUpFormInput" ng-model="user.reseausocial" ng-disabled="dd"> 
+			<input type="url" name='reseausocial' id='reseausocial' class="signUpFormElement signUpFormInput" ng-model="user.reseausocial" ng-disabled="dd">
 			<input type="url" name='reseausocial1' id='reseausocial1' class="signUpFormElement signUpFormInput" ng-model="user.reseausocial1" ng-disabled="dd">
 			<input type="url" name='reseausocial2' id='reseausocial2' class="signUpFormElement signUpFormInput" ng-model="user.reseausocial2" ng-disabled="dd">
 		</div>
@@ -38,7 +38,7 @@
 		</div>
 		<div class="coteDroit">
 			<label for="savoirEtre" class="signUpFormElement">Compétences</label><br>
-			<input class="competence" type="checkbox" id="autonome" name="savoirEtre[]" value="autonome" ng-disabled="dd">Autonome<br>	
+			<input class="competence" type="checkbox" id="autonome" name="savoirEtre[]" value="autonome" ng-disabled="dd">Autonome<br>
 			<input class="competence" type="checkbox"  id="capable" name="savoirEtre[]" value="capable" ng-disabled="dd">Capable d'analyse et de sytnhèse<br>
 			<input class="competence" type="checkbox" name="savoirEtre[]" id="ecoute" value="ecoute" ng-disabled="dd">A l'écoute<br>
 			<input class="competence" type="checkbox" name="savoirEtre[]" value="organise" id="organise" ng-disabled="dd">Organisé<br>
@@ -54,6 +54,22 @@
 	</form>
 	<button ng-show="dd==true" id="inscription" ng-click="dd=false"> Modifier mes informations</button>
 	<div id="referent">
+		Ma page consultant
+	</div>
+	http://gursoyege.github.io/pages/consultJeune.php?jeune_id={{ unique_id }}
+	<div id="referent">
 		Mes référents
 	</div>
-</div>	
+	<div class="referent" ng-repeat="ref in $root.userReferents">
+		<div class="refCell">
+			{{ref.email}}
+		</div>
+		<div class="refCell">
+			{{ref.lien}}
+		</div>
+		<div class="refCell" id="etatTtle">
+			{{ref.etat}}
+		</div>
+		</div>
+
+</div>

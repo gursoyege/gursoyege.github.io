@@ -2,15 +2,15 @@
 	include 'connect.php';
 	 $result = $conn->query("SELECT * FROM Jeunes WHERE (email='".$_POST['email']."' AND password='".$_POST['password']."') LIMIT 1");
 
-     /* fetch associative array */
+     // chercher tableau associatif
      $row = $result->fetch_assoc();
 
      if (count($row) == 0)
      {
-     	header('Location: http://eisti.kaanyagci.com/#/'); 
+     	header('Location: http://gursoyege.github.io/#/');
      }
      else
      {
-          header('Location: http://eisti.kaanyagci.com/#/profil/'.sha1($row['password']));      
+          header('Location: http://gursoyege.github.io/#/profil/'.sha1($row['password']));
      }
 ?>

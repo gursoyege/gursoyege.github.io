@@ -1,5 +1,5 @@
 <?php
-	$servername = "localhost";
+	$servername = "mysql.etude.cergy.eisti.fr";
 	$username = "gursoyege";
 	$password = "yKyO1Ek6fa";
 	$dbname = "gursoyege";
@@ -8,5 +8,5 @@
 	// Check connection
 	if ($conn->connect_error) {
 	    die("Connection failed: " . $conn->connect_error);
-	} 
+	}
 ?>

@@ -17,6 +17,8 @@ app.controller('ProfilEditController', ['$scope','$rootScope','$location','$rout
 		}
 	});
 
+	$scope.unique_id = $routeParams.id;
+	
 	$scope.go = function (cle)
 		{
 			if (cle == 'editProfil')
