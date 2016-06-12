@@ -186,6 +186,98 @@ body {
 	color: #FFFFFF;
 }
 
+.errorMessage {
+	width: 100%;
+	font-family: DINMed;
+	border-bottom: 1px solid #D41882;
+	color: #D41882;
+	text-align: center;
+	padding-bottom: 1%;
+}
+.signUpFormElement{
+	font-family: DINLight;
+	display: block;
+	margin-bottom: 1%;
+}
+
+.signUpFormInput {
+	font-family: DINMed;
+	border: 0;
+	border-bottom: 1px solid black;
+	padding: 1%;
+}
+
+.coteGauche, .coteDroit,.coteMilieu {
+	display: inline-block;
+	width: 30%;
+}
+
+.coteMilieu,.coteDroit {
+	vertical-align: top;
+}
+
+.competence {
+	font-family: DINMed;
+	padding: 1%;
+} 
+
+.coteDroit {
+	font-family: DINMed;	
+}
+
+#inscription {
+	display: block;
+	width: 100%;
+	margin-top: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	font-family: DINMed;
+	font-size: 125%;
+	border: 1px solid #FFFFFF;
+	background: #D41882;
+	color: #FFFFFF;
+}
+
+#inscription:hover {
+	border: 1px solid #D41882;
+	background: #FFFFFF;
+	color: #D41882;
+}
+
+#bonjour,#profile,#referent {
+	font-family: DINMed;
+	font-size: 150%;
+}
+
+#referent {
+	margin-top: 3%;
+}
+
+#message {
+	font-family: DINLight;
+	font-size: 125%;
+}
+
+#refMail {
+	border: 0;
+	background: transparent;
+	border-bottom: 1px solid #000000;
+	font-family: DINMed;
+	font-size: 110%;
+	width: 25%;
+	padding: 0.5%;
+}
+
+#newRef {
+	background: #A2C72C;
+	border: 1px solid #A2C72C;
+	color: #FFFFFF;
+	font-family: DINMed;
+	font-size: 110%;
+	padding: 0.5%;
+	margin-left: 3%;
+}
+
 
 
 

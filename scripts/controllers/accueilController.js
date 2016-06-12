@@ -42,9 +42,10 @@ app.controller('AccueilController', ['$scope','$location','$route', function($sc
 			{
 				$location.path('/');
 			}
-
-			$route.reload();
-
+			if (cle == 'inscription')
+			{
+				$location.path('/jeune/');
+			}
 		}
 
 		function shuffle(array) {
@@ -64,4 +65,5 @@ app.controller('AccueilController', ['$scope','$location','$route', function($sc
 
   		return array;
 		}
+
 }]);

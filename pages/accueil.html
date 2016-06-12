@@ -2,12 +2,12 @@
 	<div class="menu">
 		<div class="logo" ng-click="go('home');"></div>
 		<div class="menuItem" ng-click="go('comment');">Comment ça marche?</div>
-		<div class="menuItem">S'inscrire</div>
+		<div class="menuItem" ng-click="go('inscription')">S'inscrire</div>
 		<div ng-show="connect == false;" class="menuItem" ng-click="connect = true;">Se connecter</div>
-		<form  ng-show="connect==true;" action="" class="menuItem loginForm">
-			<input class="loginFormElement" type="mail" placeholder="E-mail" >
-			<input class="loginFormElement" type="password" placeholder="Votre mot de passe">
-			<button class="submitButton">Connexion</button>
+		<form method="post" ng-show="connect==true;" action="/pages/connectUser.php" class="menuItem loginForm">
+			<input class="loginFormElement" name="email" type="mail" placeholder="E-mail" ng-model="userMail">
+			<input class="loginFormElement" name="password" type="password" placeholder="Votre mot de passe" ng-model="userPass">
+			<button class="submitButton" ng-click="loginUser();">Connexion</button>
 		</form>
 	</div>
 </header>

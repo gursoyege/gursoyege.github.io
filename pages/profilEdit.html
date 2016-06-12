@@ -1,0 +1,59 @@
+<header>
+	<div class="menu">
+		<div class="logo" ng-click="go('home');"></div>
+		<div class="menuItem" ng-click="go('editProfil');">Mon profil</div>
+		<div class="menuItem" ng-click="go('referents')">Mes référents</div>
+</header>
+<hr>
+
+<div class="pageContent" ">
+	<div id="profile">
+		Mon profile
+	</div>
+	<form action="/pages/updateUser.php" method="post" class="signUpForm" ng-submit="showJeune()">
+		<div ng-show="error == true" class="errorMessage">
+			{{errorMessage}}
+		</div>
+		<div class="coteGauche">
+			<label for="nom" class="signUpFormElement">Nom</label>
+			<input type="text" name="nom" id="nom" class="signUpFormElement signUpFormInput" required="true" required="true" ng-model="user.nom" ng-disabled="dd">
+			<label for="prenom" class="signUpFormElement">Prénom</label>
+			<input type="text" name='prenom' id="prenom" class="signUpFormElement signUpFormInput" required="true" ng-model="user.prenom" ng-disabled="dd">
+			<label for="datenaissance" class="signUpFormElement">Date de naissance</label>
+			<input type="date" name="datenaissance" id="datenaissance" class="signUpFormElement signUpFormInput" required="true" ng-model='user.datedenaissance' ng-disabled="dd">
+			<label for="reseausocial" class="signUpFormElement">Réseaux sociaux</label>
+			<input type="url" name='reseausocial' id='reseausocial' class="signUpFormElement signUpFormInput" ng-model="user.reseausocial" ng-disabled="dd"> 
+			<input type="url" name='reseausocial1' id='reseausocial1' class="signUpFormElement signUpFormInput" ng-model="user.reseausocial1" ng-disabled="dd">
+			<input type="url" name='reseausocial2' id='reseausocial2' class="signUpFormElement signUpFormInput" ng-model="user.reseausocial2" ng-disabled="dd">
+		</div>
+		<div class="coteMilieu">
+			<label for="email" class="signUpFormElement" >E-mail</label>
+			<input type="text" name="email"	class="signUpFormElement signUpFormInput" ng-model="user.email" disabled>
+			<label for="engagement" class="signUpFormElement">Mon engagement</label>
+			<input type="text"  name="engagement" class="signUpFormElement signUpFormInput" required="true" ng-model="user.engagement" ng-disabled="dd">
+			<label for="duree" class="signUpFormElement">Durée</label>
+			<input type="text"  name="duree" 	class="signUpFormElement signUpFormInput" required="true" ng-model="user.duree" ng-disabled="dd">
+			<label for="message" class="signUpFormElement">Message</label>
+			<input type="text" name="message" id="message" class="signUpFormElement signUpFormInput" ng-model="user.message" ng-disabled="dd">
+		</div>
+		<div class="coteDroit">
+			<label for="savoirEtre" class="signUpFormElement">Compétences</label><br>
+			<input class="competence" type="checkbox" id="autonome" name="savoirEtre[]" value="autonome" ng-disabled="dd">Autonome<br>	
+			<input class="competence" type="checkbox"  id="capable" name="savoirEtre[]" value="capable" ng-disabled="dd">Capable d'analyse et de sytnhèse<br>
+			<input class="competence" type="checkbox" name="savoirEtre[]" id="ecoute" value="ecoute" ng-disabled="dd">A l'écoute<br>
+			<input class="competence" type="checkbox" name="savoirEtre[]" value="organise" id="organise" ng-disabled="dd">Organisé<br>
+			<input class="competence" type="checkbox" name="savoirEtre[]" value="passione" id="passione" ng-disabled="dd">Passioné<br>
+			<input class="competence" type="checkbox" name="savoirEtre[]" value="fiable" id="fiable" ng-disabled="dd">Fiable<br>
+			<input class="competence" type="checkbox" name="savoirEtre[]" value="patient" id="patient" ng-disabled="dd">Patient<br>
+			<input class="competence" type="checkbox" name="savoirEtre[]" value="reflechi" id="reflechi>Réfléchi<br>
+			<input class="competence" type="checkbox" name="savoirEtre[]" value="responsable" id="responsable" ng-disabled="dd">Responsable<br>
+			<input class="competence" type="checkbox" name="savoirEtre[]" value="sociable" id="sociable" ng-disabled="dd">Sociable<br>
+			<input class="competence" type="checkbox" name="savoirEtre[]" value="optimiste" id="optimiste" ng-disabled="dd">Optimiste
+		</div>
+		<button ng-show="dd==false" id="inscription">Mettre à jour</button>
+	</form>
+	<button ng-show="dd==true" id="inscription" ng-click="dd=false"> Modifier mes informations</button>
+	<div id="referent">
+		Mes référents
+	</div>
+</div>	

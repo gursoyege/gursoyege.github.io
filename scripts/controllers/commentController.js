@@ -1,5 +1,5 @@
 app.controller('CommentController', ['$scope','$location', function($scope,$location){
-	$scope.connect = false;
+		 $scope.connect = false;
 	$scope.titles = [
 		{ 
 		  title : 'De quoi s\'agit il?',
@@ -25,8 +25,10 @@ app.controller('CommentController', ['$scope','$location', function($scope,$loca
 			{
 				$location.path('/');
 			}
-
-			$route.reload();
+			if (cle == 'inscription')
+			{
+				$location.path('/jeune/');
+			}
 
 		}
 

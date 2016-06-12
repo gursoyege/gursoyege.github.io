@@ -1,0 +1,21 @@
+<header>
+	<div class="menu">
+		<div class="logo" ng-click="go('home');"></div>
+		<div class="menuItem" ng-click="go('editProfil');">Mon profil</div>
+		<div class="menuItem" ng-click="go('referents')">Mes référents</div>
+</header>
+<hr>
+
+<div class="pageContent">
+	<div id="ajouterReferent">
+		<input id='refMail' type="mail" placeholder="Adresse mail de référent" ng-model="referentMail">
+		<button id="newRef" ng-click="nouveauRef()">Nouveau référent</button>
+	</div>
+	<div id="referentList">
+		<div class="referent" ng-repeat="ref in userReferents">
+			{{ref.email}}
+			{{ref.lien}}
+			{{ref.etat}}
+		</div>
+	</div>
+</div>

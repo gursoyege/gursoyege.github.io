@@ -25,6 +25,22 @@ app.config(['$routeProvider',
         templateUrl: 'pages/jeunes.html',
         controller: 'JeunesController'
       }).
+      when('/profil/:id', {
+        templateUrl: 'pages/profil.html',
+        controller: 'ProfilController'
+      }).
+      when('/profil/:id/edit', {
+        templateUrl: 'pages/profilEdit.html',
+        controller: 'ProfilEditController'
+      }).
+      when('/profil/:id/referents', {
+        templateUrl: 'pages/profilReferents.html',
+        controller: 'ProfilReferentsController'
+      }).
+      when('/referent/:email', {
+        templateUrl: '/pages/newReferent.html',
+        controller: 'NewReferentController'
+      }).
       otherwise({
         redirectTo: '/'
       });
