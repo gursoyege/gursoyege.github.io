@@ -1,7 +1,7 @@
 <?php
-	$servername = "mysql.etude.cergy.eisti.fr";
-	$username = "gursoyege";
-	$password = "yKyO1Ek6fa";
+	$servername = "localhost";
+	$username = "";
+	$password = "";
 	$dbname = "gursoyege";
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
