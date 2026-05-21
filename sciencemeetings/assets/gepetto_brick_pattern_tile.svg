@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="38" viewBox="0 0 108 38">
+  <title>Gepetto brick wall repeat tile</title>
+  <desc>Repeatable running-bond brick pattern vector tile reconstructed from the logo background.</desc>
+  <rect width="100%" height="100%" fill="#D3C1BC"/>
+
+  <!-- Top row: full bricks -->
+  <rect x="0" y="0" width="52" height="17" fill="#A3422B"/>
+  <rect x="54" y="0" width="52" height="17" fill="#A3422B"/>
+
+  <!-- Bottom row: half-brick offset -->
+  <rect x="0" y="19" width="25" height="17" fill="#A3422B"/>
+  <rect x="27" y="19" width="52" height="17" fill="#A3422B"/>
+  <rect x="81" y="19" width="27" height="17" fill="#A3422B"/>
+</svg>

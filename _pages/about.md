@@ -11,7 +11,7 @@ I am a postdoctoral researcher at LAAS-CNRS in Toulouse, France, where I am a me
 
 My research focuses on manipulation, model predictive control, robot perception, and learning-based methods for robotics. I am also interested in dual-arm robots, out-of-distribution and robustness, formal certification and verification methods, agricultural robotics.
 
-At LAAS I organize Gepetto Science Seminars and coordinate invited speakers. 
+At LAAS I organize [Gepetto Science Meetings](/sciencemeetings/) and coordinate invited speakers. 
 
 I am also an associate editor for IROS.
 
