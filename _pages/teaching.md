@@ -5,9 +5,6 @@ permalink: /teaching/
 author_profile: true
 ---
 
-Teaching
-======
-
 **University of Montpellier**, Master's degree in Electrical Engineering, Robotics Track  
 *September 2024 - August 2025*
 
