@@ -26,8 +26,9 @@ Experience
 Education
 ======
 
-- **Ph.D.**, Automatic and Microelectronic Systems, University of Montpellier, France, *October 2021 - October 2024*  
-  Electrical and Computer System Engineering, Monash University, Australia. Supervisors: Andrea Cherubini and Dana Kulić.
+- **Ph.D.**, Automatic and Microelectronic Systems, University of Montpellier, France  
+  Electrical and Computer System Engineering, Monash University, Australia, *October 2021 - October 2024*  
+  Supervisors: Andrea Cherubini and Dana Kulić.
 - **M.Sc.**, Electrical Engineering, University of Montpellier, France, *September 2018 - August 2020*  
   Specialization: Robotics.
 - **B.Sc.**, Electrical Engineering, University of Montpellier, France, *September 2016 - August 2018*
