@@ -83,7 +83,7 @@ Editorial Service
 
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), _Associate Editor_
 - IEEE Transactions on Robotics (T-RO), _Reviewer_
-- IEEE Transactions on Automation Science and Engineering (T-ASE), _reviewer_
+- IEEE Transactions on Automation Science and Engineering (T-ASE), _Reviewer_
 - IEEE Robotics and Automation Letters (RA-L), _Reviewer_
 - IEEE International Conference on Robotics and Automation (ICRA), _Reviewer_
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), _Reviewer_
