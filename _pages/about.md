@@ -7,14 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at LAAS-CNRS in Toulouse, France, where I am a member of the Gepetto. I work with Vincent Bonnet (LAAS, IPAL Singapore), Nicolas Mansard (LAAS, ANITI) and Joao Cavalcanti Santos (LIRMM, Université de Montpellier).
+I am a postdoctoral researcher at LAAS-CNRS in Toulouse, France, where I am a member of the Gepetto team. I mainly work with Vincent Bonnet (LAAS, IPAL Singapore), Nicolas Mansard (LAAS, ANITI) and Joao Cavalcanti Santos (LIRMM, University of Montpellier).
 
-My research focuses on manipulation, model predictive control, robot perception, and learning-based methods for robotics. I am also interested in dual-arm robots, out-of-distribution and robustness, formal certification and verification methods, agricultural robotics.
+My research focuses on manipulation, predictive control, robot perception, and learning methods for robotics. I am also interested in agricultural robotics, dual-arm control, out-of-distribution problems, certification and verification methods.
 
-At LAAS I organize [Gepetto Science Meetings](/sciencemeetings/) and coordinate invited speakers. 
+I organize [Gepetto Science Meetings](/sciencemeetings/) and coordinate invited speakers at LAAS. 
 
-I am also an associate editor for IROS.
-
+Currently serving as an Associate Editor for IROS.
 
 <!-- Research Interests
 ======
