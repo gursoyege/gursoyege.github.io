@@ -36,18 +36,20 @@ Education
 Publications
 ======
 
-- **E. Gursoy**, K. Wojciechowski, M. Fourmy, A. Haffemayer, S. Kleff, V. Petrik, J. C. Santos, V. Bonnet, N. Mansard, "Force-Feedback Model Predictive Control with Diffusion Motion Priors for Contact-Rich Industrial Finishing Tasks," *under review*, 2026.
-- **E. Gursoy**, N. Mansard, "Sparse Sum-of-Squares Layers for Certified Learning," *under review*, 2026.
-- **E. Gursoy**, N. Mansard, "TriScore: Post-Hoc Out-of-Distribution Detection with Energy, Boundary Probes, and Transform Consistency," *under review*, 2026.
-- K. Wojciechowski, **E. Gursoy**, A. Haffemayer, S. Kleff, V. Bonnet, F. Lamiraux, N. Mansard, "Learning-Guided Force-Feedback Model Predictive Control with Obstacle Avoidance for Robotic Deburring," *IEEE International Conference on Robotics and Automation (ICRA)*, 2026.
-- **E. Gursoy**, J. C. Santos, N. Mansard, V. Bonnet, "VCC: Verified Constraint Compilation for Test-Time Refinement of Manipulation Priors," *under review*, 2026.
-- **E. Gursoy**, M. Sabbah, A. Haffemayer, J. C. Santos, P. N. Crestaz, V. Petrik, N. Mansard, V. Bonnet, "COSMIK-MPPI: Scaling Constrained Model Predictive Control to Collision Avoidance in Close-Proximity Dynamic Human Environments," *under review*, 2026.
-- **E. Gursoy**, R. Passama, A. Cherubini, "Dual-Arm Push-and-Reach Planning for Fruit Harvesting in Cluttered Environments," *under review*, 2026.
-- **E. Gursoy**, A. Cosgun, D. Kulić, A. Cherubini, "Two Arms, One Goal: Reproducible Dual-Arm Robotic Fruit Harvesting," *under review*, 2026.
-- **E. Gursoy**, D. Kulić, A. Cherubini, "Occlusion Handling by Pushing for Enhanced Fruit Detection," *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2024.
-- **E. Gursoy**, B. Navarro, A. Cosgun, D. Kulić, A. Cherubini, "Towards Vision-Based Dual Arm Robotic Fruit Harvesting," *IEEE International Conference on Automation Science and Engineering (CASE)*, 2023.
-- **E. Gursoy**, S. Tarbouriech, A. Cherubini, "Can Robots Mold Soft Plastic Materials by Shaping Depth Images?" *IEEE Transactions on Robotics*, 2023.
-- **E. Gursoy**, A. Cosgun, D. Kulić, A. Cherubini, "PICKBOT: Dual-arm Harvesting Robot," *IEEE International Conference on Robotics and Automation (ICRA) Agri Workshop*, 2022.
+- Z. Xue, K. J. Yue, J. Qiu, Y. Cheng, **E. Gursoy**, J. Wang, V. Bonnet, H. Soh, "Control-Ready Uncertainty for Trajectory Diffusion," *Conference on Robot Learning (**CoRL**)*, 2026.
+- Z. Xue, K. J. Yue, J. Qiu, Y. Cheng, **E. Gursoy**, J. Wang, V. Bonnet, H. Soh, "Control-Ready Uncertainty for Trajectory Diffusion," *Robotics: Science and Systems (**RSS**) Diff4RL Workshop*, 2026.
+- **E. Gursoy**, K. Wojciechowski, M. Fourmy, A. Haffemayer, S. Kleff, V. Petrik, J. C. Santos, V. Bonnet, N. Mansard, "Force-Feedback Model Predictive Control with Diffusion Motion Priors for Contact-Rich Industrial Finishing Tasks," *Under Review*, 2026.
+- **E. Gursoy**, N. Mansard, "Sparse Sum-of-Squares Layers for Certified Learning," *Under Review*, 2026.
+- **E. Gursoy**, N. Mansard, "TriScore: Post-Hoc Out-of-Distribution Detection with Energy, Boundary Probes, and Transform Consistency," *Transactions on Machine Learning Research (**TMLR**)*, 2026.
+- K. Wojciechowski, **E. Gursoy**, A. Haffemayer, S. Kleff, V. Bonnet, F. Lamiraux, N. Mansard, "Learning-Guided Force-Feedback Model Predictive Control with Obstacle Avoidance for Robotic Deburring," *IEEE International Conference on Robotics and Automation (**ICRA**)*, 2026.
+- **E. Gursoy**, J. C. Santos, N. Mansard, V. Bonnet, "VCC: Verified Constraint Compilation for Test-Time Refinement of Manipulation Priors," *Under Review*, 2026.
+- **E. Gursoy**, M. Sabbah, A. Haffemayer, J. C. Santos, P. N. Crestaz, V. Petrik, N. Mansard, V. Bonnet, "COSMIK-MPPI: Scaling Constrained Model Predictive Control to Collision Avoidance in Close-Proximity Dynamic Human Environments," *Under Review*, 2026.
+- **E. Gursoy**, R. Passama, A. Cherubini, "Dual-Arm Push-and-Reach Planning for Fruit Harvesting in Cluttered Environments," *Under Review*, 2026.
+- **E. Gursoy**, A. Cosgun, D. Kulić, A. Cherubini, "Two Arms, One Goal: Reproducible Dual-Arm Robotic Fruit Harvesting," *Under Review*, 2026.
+- **E. Gursoy**, D. Kulić, A. Cherubini, "Occlusion Handling by Pushing for Enhanced Fruit Detection," *IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**)*, 2024.
+- **E. Gursoy**, B. Navarro, A. Cosgun, D. Kulić, A. Cherubini, "Towards Vision-Based Dual Arm Robotic Fruit Harvesting," *IEEE International Conference on Automation Science and Engineering (**CASE**)*, 2023.
+- **E. Gursoy**, S. Tarbouriech, A. Cherubini, "Can Robots Mold Soft Plastic Materials by Shaping Depth Images?" *IEEE Transactions on Robotics (**T-RO**)*, 2023.
+- **E. Gursoy**, A. Cosgun, D. Kulić, A. Cherubini, "PICKBOT: Dual-arm Harvesting Robot," *IEEE International Conference on Robotics and Automation (**ICRA**) Agri Workshop*, 2022.
 
 Supervision
 ======
@@ -61,36 +63,36 @@ Supervision
 - **Research Assistant**, Monash University Robotics Lab / University of Melbourne  
   In-hand object pivoting using vision, force, and tactile sensing, *October 2023 - February 2024*.
 - **Master's internship**, University of Oxford  
-  Sampling Based Model Predictive Control and Reinforcement Learning, *June 2026 - August 2026*.
+  Sampling Based Model Predictive Control and Reinforcement Learning, *June 2026 - September 2026*.
 
 Teaching
 ======
 
 **University of Montpellier**, Master's degree in Electrical Engineering, Robotics Track, *September 2024 - August 2025*
 
-- Computer Engineering, M1
-- Fundamentals of Robotics, M1
-- Image Processing, M1
-- Multivariable Control, M1
-- ROS2 Programming, M1
-- Advanced Programming, M2
-- Applied Robotics, M2
+- Advanced Programming, 2nd year M.Sc.
+- Applied Robotics, 2nd year M.Sc.
+- Computer Engineering, 1st year M.Sc.
+- Fundamentals of Robotics, 1st year M.Sc.
+- Image Processing, 1st year M.Sc.
+- Multivariable Control, 1st year M.Sc.
+- ROS2 Programming, 1st year M.Sc.
 
 Editorial Service
 ======
 
-- IEEE Transactions on Robotics (T-RO), reviewer
-- IEEE Transactions on Automation Science and Engineering (T-ASE), reviewer
-- IEEE Robotics and Automation Letters (RA-L), reviewer
-- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), associate editor
-- IEEE International Conference on Robotics and Automation (ICRA), reviewer
-- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), reviewer
-- IEEE International Conference on Automation Science and Engineering (CASE), reviewer
-- IEEE-RAS Conference on Humanoid Robots (Humanoids), reviewer
-- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), reviewer
-- European Conference on Computer Vision (ECCV), reviewer
-- Robotics: Science and Systems (RSS), reviewer
-- Conference on Neural Information Processing Systems (NeurIPS), reviewer
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), _Associate Editor_
+- IEEE Transactions on Robotics (T-RO), _Reviewer_
+- IEEE Transactions on Automation Science and Engineering (T-ASE), _reviewer_
+- IEEE Robotics and Automation Letters (RA-L), _Reviewer_
+- IEEE International Conference on Robotics and Automation (ICRA), _Reviewer_
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), _Reviewer_
+- IEEE International Conference on Automation Science and Engineering (CASE), _Reviewer_
+- IEEE-RAS Conference on Humanoid Robots (Humanoids), _Reviewer_
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), _Reviewer_
+- European Conference on Computer Vision (ECCV), _Reviewer_
+- Robotics: Science and Systems (RSS), _Reviewer_
+- Conference on Neural Information Processing Systems (NeurIPS), _Reviewer_
 
 Grants and Fellowships
 ======
@@ -100,4 +102,7 @@ Grants and Fellowships
 - **Visiting Ph.D. Top-Up Scholarship, Monash University**, *October 2022 - December 2023*  
   Travel and research top-up funded by Prof. Dana Kulić. Support for long-term visit to Monash University Robotics group.
 - **Postdoctoral Fellowship, Défi Clé "Robotique centrée sur l'humain"**, *September 2025 - December 2026*  
-  12+4-month regional fellowship funded by Région Occitanie. Awarded for research in human-centered robotics.
+  12-month regional fellowship funded by Région Occitanie. Awarded for research in human-centered robotics.
+- **Postdoctoral Fellowship, CNRS Tremplin Program**, September 2026 - September 2027
+  Competitive postdoctoral fellowship funded by CNRS.
+  
