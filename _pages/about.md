@@ -15,7 +15,7 @@ My research focuses on manipulation, predictive control, robot perception, and l
 
 I organize [Gepetto Science Meetings](/sciencemeetings/) and coordinate invited speakers at LAAS. 
 
-Currently serving as an Associate Editor for IROS.
+Currently serving as an Associate Editor for [ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/) and [IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/).
 
 <!-- Research Interests
 ======
