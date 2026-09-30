@@ -44,7 +44,7 @@ Publications
 ### Conferences
 
 - **E. Gursoy**, N. Mansard, "Sparse Sum-of-Squares Layers for Certified Learning," *Advances in Neural Information Processing Systems (**NeurIPS**)*, 2026.
-- Z. Xue, K. J. Yue, J. Qiu, Y. Cheng, **E. Gursoy**, J. Wang, V. Bonnet, H. Soh, "Control-Ready Uncertainty for Trajectory Diffusion," *Conference on Robot Learning (**CoRL**)*, 2026. ***★ Spotlight (top 3.4%)***.
+- Z. Xue, K. J. Yue, J. Qiu, Y. Cheng, **E. Gursoy**, J. Wang, V. Bonnet, H. Soh, "Control-Ready Uncertainty for Trajectory Diffusion," *Conference on Robot Learning (**CoRL**)*, 2026. *★ Spotlight (top 3.4%)*.
 - Z. Xue, K. J. Yue, J. Qiu, Y. Cheng, **E. Gursoy**, J. Wang, V. Bonnet, H. Soh, "Control-Ready Uncertainty for Trajectory Diffusion," *Robotics: Science and Systems (**RSS**) Diff4RL Workshop*, 2026.
 - K. Wojciechowski, **E. Gursoy**, A. Haffemayer, S. Kleff, V. Bonnet, F. Lamiraux, N. Mansard, "Learning-Guided Force-Feedback Model Predictive Control with Obstacle Avoidance for Robotic Deburring," *IEEE International Conference on Robotics and Automation (**ICRA**)*, 2026.
 - **E. Gursoy**, D. Kulić, A. Cherubini, "Occlusion Handling by Pushing for Enhanced Fruit Detection," *IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**)*, 2024.
