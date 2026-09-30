@@ -16,14 +16,14 @@ author_profile: true
 - **E. Gursoy**, N. Mansard, "Sparse Sum-of-Squares Layers for Certified Learning," *Advances in Neural Information Processing Systems (NeurIPS)*, 2026.
 - Z. Xue, K. J. Yue, J. Qiu, Y. Cheng, **E. Gursoy**, J. Wang, V. Bonnet, H. Soh, "Control-Ready Uncertainty for Trajectory Diffusion," *Conference on Robot Learning (**CoRL**)*, 2026. *★ Spotlight (top 3.4%)*.
 - Z. Xue, K. J. Yue, J. Qiu, Y. Cheng, **E. Gursoy**, J. Wang, V. Bonnet, H. Soh, "Control-Ready Uncertainty for Trajectory Diffusion," *Robotics: Science and Systems (**RSS**) Diff4RL Workshop*, 2026.
-- K. Wojciechowski, **E. Gursoy**, A. Haffemayer, S. Kleff, V. Bonnet, F. Lamiraux, N. Mansard, "Learning-Guided Force-Feedback Model Predictive Control with Obstacle Avoidance for Robotic Deburring," *IEEE International Conference on Robotics and Automation (**ICRA**)*, 2026.
+- K. Wojciechowski*, **E. Gursoy***, A. Haffemayer, S. Kleff, V. Bonnet, F. Lamiraux, N. Mansard, "Learning-Guided Force-Feedback Model Predictive Control with Obstacle Avoidance for Robotic Deburring," *IEEE International Conference on Robotics and Automation (**ICRA**)*, 2026.
 - **E. Gursoy**, D. Kulić, A. Cherubini, "Occlusion Handling by Pushing for Enhanced Fruit Detection," *IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**)*, 2024.
 - **E. Gursoy**, B. Navarro, A. Cosgun, D. Kulić, A. Cherubini, "Towards Vision-Based Dual Arm Robotic Fruit Harvesting," *IEEE International Conference on Automation Science and Engineering (**CASE**)*, 2023.
 - **E. Gursoy**, A. Cosgun, D. Kulić, A. Cherubini, "PICKBOT: Dual-arm Harvesting Robot," *IEEE International Conference on Robotics and Automation (**ICRA**) Agri Workshop*, 2022.
 
 ## Preprints
 
-- T. O'Brien, **E. Gursoy**, M. Mujica, A. Donaire, "Policy-guided Sampling-based Predictive Control for Contact-Rich Manipulation," *Under Review*, 2026.
+- T. O'Brien*, **E. Gursoy***, M. Mujica, A. Donaire, "Policy-guided Sampling-based Predictive Control for Contact-Rich Manipulation," *Under Review*, 2026.
 - **E. Gursoy**, V. Bonnet, N. Mansard, J. C. Santos, "Cost-Representation Robustness in Language-Guided Model Predictive Control," *Under Review*, 2026.
 - **E. Gursoy**, N. Mansard, J. C. Santos, V. Bonnet, "VCC: Verified Constraint Compilation for Test-Time Refinement of Manipulation Priors," *Under Review*, 2026.
 - **E. Gursoy**, K. Wojciechowski, M. Fourmy, A. Haffemayer, S. Kleff, V. Petrik, J. C. Santos, V. Bonnet, N. Mansard, "Force-Feedback Model Predictive Control with Diffusion Motion Priors for Contact-Rich Industrial Finishing Tasks," *Under Review*, 2026.
