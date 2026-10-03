@@ -53,10 +53,10 @@ Publications
 
 ### Preprints
 
-- T. O'Brien*, **E. Gursoy***, M. Mujica, A. Donaire, "Policy-guided Sampling-based Predictive Control for Contact-Rich Manipulation," *Under Review*, 2026.
+- T. O'Brien\*, **E. Gursoy**\*, M. Mujica, A. Donaire, "Policy-guided Sampling-based Predictive Control for Contact-Rich Manipulation," *Under Review*, 2026.
 - **E. Gursoy**, V. Bonnet, N. Mansard, J. C. Santos, "Cost-Representation Robustness in Language-Guided Model Predictive Control," *Under Review*, 2026.
 - **E. Gursoy**, N. Mansard, J. C. Santos, V. Bonnet, "VCC: Verified Constraint Compilation for Test-Time Refinement of Manipulation Priors," *Under Review*, 2026.
-- **E. Gursoy***, K. Wojciechowski*, M. Fourmy, A. Haffemayer, S. Kleff, V. Petrik, J. C. Santos, V. Bonnet, N. Mansard, "Force-Feedback Model Predictive Control with Diffusion Motion Priors for Contact-Rich Industrial Finishing Tasks," *Under Review*, 2026.
+- **E. Gursoy**\*, K. Wojciechowski\*, M. Fourmy, A. Haffemayer, S. Kleff, V. Petrik, J. C. Santos, V. Bonnet, N. Mansard, "Force-Feedback Model Predictive Control with Diffusion Motion Priors for Contact-Rich Industrial Finishing Tasks," *Under Review*, 2026.
 - **E. Gursoy**, M. Sabbah, A. Haffemayer, J. C. Santos, P. N. Crestaz, V. Petrik, N. Mansard, V. Bonnet, "COSMIK-MPPI: Scaling Constrained Model Predictive Control to Collision Avoidance in Close-Proximity Dynamic Human Environments," *Under Review*, 2026.
 - **E. Gursoy**, R. Passama, A. Cherubini, "Dual-Arm Push-and-Reach Planning for Fruit Harvesting in Cluttered Environments," *Under Review*, 2026.
 - **E. Gursoy**, A. Cosgun, D. Kulić, A. Cherubini, "Two Arms, One Goal: Reproducible Dual-Arm Robotic Fruit Harvesting," *Under Review*, 2026.
